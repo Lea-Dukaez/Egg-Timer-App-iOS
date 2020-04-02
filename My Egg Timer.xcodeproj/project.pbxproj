@@ -13,6 +13,13 @@
 		DBBD5C4F24351AD40048BAD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBD5C4D24351AD40048BAD3 /* Main.storyboard */; };
 		DBBD5C5124351AD60048BAD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBBD5C5024351AD60048BAD3 /* Assets.xcassets */; };
 		DBBD5C5424351AD60048BAD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBD5C5224351AD60048BAD3 /* LaunchScreen.storyboard */; };
+		DBBD5C5F2435DC7C0048BAD3 /* DarkerGrotesque-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBBD5C5C2435DC7B0048BAD3 /* DarkerGrotesque-Light.ttf */; };
+		DBBD5C602435DC7C0048BAD3 /* DarkerGrotesque-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBBD5C5D2435DC7C0048BAD3 /* DarkerGrotesque-Bold.ttf */; };
+		DBBD5C612435DC7C0048BAD3 /* DarkerGrotesque-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBBD5C5E2435DC7C0048BAD3 /* DarkerGrotesque-Regular.ttf */; };
+		DBBD5C652435DCCA0048BAD3 /* DarkerGrotesque-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBBD5C622435DCCA0048BAD3 /* DarkerGrotesque-ExtraBold.ttf */; };
+		DBBD5C662435DCCA0048BAD3 /* DarkerGrotesque-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBBD5C632435DCCA0048BAD3 /* DarkerGrotesque-Medium.ttf */; };
+		DBBD5C672435DCCA0048BAD3 /* DarkerGrotesque-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBBD5C642435DCCA0048BAD3 /* DarkerGrotesque-SemiBold.ttf */; };
+		DBBD5C6B243638E00048BAD3 /* alarm.wav in Resources */ = {isa = PBXBuildFile; fileRef = DBBD5C6A243638E00048BAD3 /* alarm.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		DBBD5C5024351AD60048BAD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBBD5C5324351AD60048BAD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBBD5C5524351AD60048BAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBD5C5C2435DC7B0048BAD3 /* DarkerGrotesque-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DarkerGrotesque-Light.ttf"; sourceTree = "<group>"; };
+		DBBD5C5D2435DC7C0048BAD3 /* DarkerGrotesque-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DarkerGrotesque-Bold.ttf"; sourceTree = "<group>"; };
+		DBBD5C5E2435DC7C0048BAD3 /* DarkerGrotesque-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DarkerGrotesque-Regular.ttf"; sourceTree = "<group>"; };
+		DBBD5C622435DCCA0048BAD3 /* DarkerGrotesque-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DarkerGrotesque-ExtraBold.ttf"; sourceTree = "<group>"; };
+		DBBD5C632435DCCA0048BAD3 /* DarkerGrotesque-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DarkerGrotesque-Medium.ttf"; sourceTree = "<group>"; };
+		DBBD5C642435DCCA0048BAD3 /* DarkerGrotesque-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DarkerGrotesque-SemiBold.ttf"; sourceTree = "<group>"; };
+		DBBD5C6A243638E00048BAD3 /* alarm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alarm.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 		DBBD5C4624351AD40048BAD3 /* My Egg Timer */ = {
 			isa = PBXGroup;
 			children = (
+				DBBD5C5B2435DC320048BAD3 /* fonts */,
 				DBBD5C4724351AD40048BAD3 /* AppDelegate.swift */,
 				DBBD5C4924351AD40048BAD3 /* SceneDelegate.swift */,
 				DBBD5C4B24351AD40048BAD3 /* ViewController.swift */,
@@ -63,8 +78,22 @@
 				DBBD5C5024351AD60048BAD3 /* Assets.xcassets */,
 				DBBD5C5224351AD60048BAD3 /* LaunchScreen.storyboard */,
 				DBBD5C5524351AD60048BAD3 /* Info.plist */,
+				DBBD5C6A243638E00048BAD3 /* alarm.wav */,
 			);
 			path = "My Egg Timer";
+			sourceTree = "<group>";
+		};
+		DBBD5C5B2435DC320048BAD3 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DBBD5C5D2435DC7C0048BAD3 /* DarkerGrotesque-Bold.ttf */,
+				DBBD5C5C2435DC7B0048BAD3 /* DarkerGrotesque-Light.ttf */,
+				DBBD5C5E2435DC7C0048BAD3 /* DarkerGrotesque-Regular.ttf */,
+				DBBD5C622435DCCA0048BAD3 /* DarkerGrotesque-ExtraBold.ttf */,
+				DBBD5C632435DCCA0048BAD3 /* DarkerGrotesque-Medium.ttf */,
+				DBBD5C642435DCCA0048BAD3 /* DarkerGrotesque-SemiBold.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +154,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBBD5C602435DC7C0048BAD3 /* DarkerGrotesque-Bold.ttf in Resources */,
 				DBBD5C5424351AD60048BAD3 /* LaunchScreen.storyboard in Resources */,
 				DBBD5C5124351AD60048BAD3 /* Assets.xcassets in Resources */,
+				DBBD5C652435DCCA0048BAD3 /* DarkerGrotesque-ExtraBold.ttf in Resources */,
+				DBBD5C662435DCCA0048BAD3 /* DarkerGrotesque-Medium.ttf in Resources */,
+				DBBD5C672435DCCA0048BAD3 /* DarkerGrotesque-SemiBold.ttf in Resources */,
+				DBBD5C5F2435DC7C0048BAD3 /* DarkerGrotesque-Light.ttf in Resources */,
+				DBBD5C612435DC7C0048BAD3 /* DarkerGrotesque-Regular.ttf in Resources */,
+				DBBD5C6B243638E00048BAD3 /* alarm.wav in Resources */,
 				DBBD5C4F24351AD40048BAD3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
